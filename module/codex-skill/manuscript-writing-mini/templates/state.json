@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "project": null,
+  "manuscript_title_working": null,
+  "paper_type": null,
+  "target_journal": null,
+  "current_phase": 0,
+  "manuscript_version": 1,
+  "story_status": "PENDING",
+  "blueprint_status": "PENDING",
+  "figure_plan_status": "PENDING",
+  "table_plan_status": "PENDING",
+  "asset_production_status": "PENDING",
+  "section_drafting_status": "PENDING",
+  "unresolved_items": [],
+  "author_decisions": [],
+  "last_updated": null,
+  "draft_readiness": "DRAFT_IN_PROGRESS",
+  "next_actions": [
+    "Audit input before prose"
+  ],
+  "test_only": false,
+  "content_check": null,
+  "input_map": {},
+  "blueprint_hash": null
+}

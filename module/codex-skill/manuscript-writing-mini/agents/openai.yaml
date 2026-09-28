@@ -1,0 +1,8 @@
+interface:
+  display_name: "Manuscript Writing Mini"
+  short_description: "简洁写作方案、早期样稿与逐章图文协作，保留证据校验和审稿交接"
+  icon_small: "./assets/writing-mini.svg"
+  icon_large: "./assets/writing-mini.svg"
+  default_prompt: "用 $manuscript-writing-mini 承接当前研究证据，先给出简洁写作方案与代表性小节，再逐章完成初稿。"
+policy:
+  allow_implicit_invocation: true

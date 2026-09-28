@@ -1,0 +1,216 @@
+name: manuscript-writing-mini
+version: 1.0.0
+always_load:
+- references/workflow.md
+phase_routes:
+  '0':
+  - references/manuscript-intake.md
+  '1':
+  - references/story-design.md
+  '2':
+  - references/claim-architecture.md
+  - references/section-design.md
+  '3':
+  - references/display-architecture.md
+  - references/figure-planning.md
+  - references/table-planning.md
+  - references/literature-visuals.md
+  - references/supplementary-planning.md
+  '4':
+  - references/targeted-source-verification.md
+  '5':
+  - references/provenance.md
+  - references/adapters.md
+  '6':
+  - references/writing-safety.md
+  - references/adapters.md
+  '7':
+  - references/section-design.md
+  - references/supplementary-planning.md
+  '8':
+  - references/readiness-gates.md
+  '9':
+  - references/handoff-contract.md
+paper_types:
+  original_research:
+    guide: references/paper-types/original_research.md
+    nature_writing_type: research
+  ml_ai:
+    guide: references/paper-types/ml_ai.md
+    nature_writing_type: algorithmic
+  experimental:
+    guide: references/paper-types/experimental.md
+    nature_writing_type: research
+  simulation:
+    guide: references/paper-types/simulation.md
+    nature_writing_type: research
+  engineering:
+    guide: references/paper-types/engineering.md
+    nature_writing_type: research
+  observational:
+    guide: references/paper-types/observational.md
+    nature_writing_type: research
+  methods:
+    guide: references/paper-types/methods.md
+    nature_writing_type: methods
+  review:
+    guide: references/paper-types/review.md
+    nature_writing_type: review
+  systematic_review:
+    guide: references/paper-types/systematic_review.md
+    nature_writing_type: review
+  perspective:
+    guide: references/paper-types/perspective.md
+    nature_writing_type: hypothesis
+  mixed:
+    guide: references/paper-types/mixed.md
+    nature_writing_type: research
+allowed_specialists:
+- nature-writing
+- nature-reader
+- nature-figure
+- nature-ref-verifier
+- nature-citation
+- nature-academic-search
+forbidden_stage2_specialists:
+- nature-polishing
+- nature-reviewer
+- latex-document-skill
+- academic-typesetting
+- publication-build
+- manuscript-review
+figure_fields:
+- figure_id
+- working_title
+- target_section
+- scientific_question
+- main_claim
+- why_figure
+- why_table_insufficient
+- figure_type
+- overall_layout
+- panel_count
+- required_data
+- required_photos
+- required_model_outputs
+- required_literature
+- labels_annotations
+- statistics
+- caption_requirements
+- reviewer_concern
+- generation_route
+- expected_source_files
+- expected_outputs
+- provenance_mode
+- status
+table_fields:
+- table_id
+- target_section
+- scientific_purpose
+- question_answered
+- why_table
+- rows
+- columns
+- data_sources
+- literature_sources
+- sorting
+- statistics
+- highlighting
+- main_message
+- placement
+- source_file
+- caption_requirements
+- status
+verification_fields:
+- verification_id
+- component_id
+- paper_id
+- doi
+- source_mode
+- original_path
+- original_sha256
+- locator
+- original_caption
+- surrounding_context
+- author_claim
+- observed_evidence
+- assumptions
+- reuse_appropriateness
+- licence
+- permission
+- attribution
+- modifications
+- fact_source_map
+- verified_at
+- brief_path
+- brief_sha256
+- status
+figure_types:
+- DATA_FIGURE
+- SCIENTIFIC_SCHEMATIC
+- METHOD_WORKFLOW
+- MECHANISM_DIAGRAM
+- TAXONOMY_FIGURE
+- CONCEPTUAL_FIGURE
+- EXPERIMENTAL_PHOTO_FIGURE
+- MODEL_OUTPUT_FIGURE
+- SIMULATION_OUTPUT_FIGURE
+- LITERATURE_REPRODUCED
+- LITERATURE_ADAPTED
+- LITERATURE_SYNTHESIZED
+- MIXED_MULTI_PANEL
+source_modes:
+- REFERENCE_ONLY
+- LITERATURE_REPRODUCED
+- LITERATURE_ADAPTED
+- LITERATURE_SYNTHESIZED
+scripts:
+- scripts/manuscriptctl.py
+- scripts/routes.py
+templates:
+- templates/author_input_needed.md
+- templates/claim_evidence_map.csv
+- templates/figure_brief.yaml
+- templates/figure_brief_full.yaml
+- templates/manuscript_asset_manifest.csv
+- templates/manuscript_blueprint/00_intake_audit.md
+- templates/manuscript_blueprint/decision_log.md
+- templates/manuscript_blueprint/writing_plan.md
+- templates/manuscript_ready_checklist.md
+- templates/numeric_trace.csv
+- templates/section_registry.csv
+- templates/source_verification.yaml
+- templates/state.json
+- templates/table_brief.yaml
+- templates/table_brief_full.yaml
+- templates/unresolved_items.md
+project_coordination:
+  contract_version: '1.1'
+  actor: manuscript_writing
+  helper: scripts/projectctl.py
+  shared_contract: ../../../workflow-contract/README.md
+compact_figure_fields:
+- figure_id
+- target_section
+- scientific_question
+- main_claim
+- figure_type
+- panel_count
+- panels
+- generation_route
+- expected_source_files
+- expected_outputs
+- provenance_mode
+- caption_requirements
+- status
+compact_table_fields:
+- table_id
+- target_section
+- scientific_purpose
+- rows
+- columns
+- data_sources
+- source_file
+- placement
+- caption_requirements
+- status

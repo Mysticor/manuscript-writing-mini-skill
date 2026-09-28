@@ -1,0 +1,20 @@
+figure_id: null
+target_section: null
+scientific_question: null
+main_claim: null
+figure_type: null
+panel_count: 1
+panels:
+- label: null
+  scientific_role: null
+  exact_content: null
+  sources: null
+  axes_variables: null
+  visual_form: null
+generation_route: nature-figure
+expected_source_files: null
+expected_outputs: null
+provenance_mode: null
+caption_requirements: null
+status: null
+brief_schema: compact-v1
