@@ -6,7 +6,9 @@ description: >
 ---
 # Manuscript Writing Mini
 
-承接已选研究方向与实际证据，不重新选题。完成可交给 manuscript-review 的完整 Markdown 初稿。
+Research Workflow Skills · 02 · Writing. See the repository README for the four-stage series and installation.
+
+承接已选研究方向与实际证据，不重新选题。完成可交给 manuscript-review-mini（或兼容的 manuscript-review）的完整 Markdown 初稿。
 
 ## 开始
 定位实际研究目录。恢复先读 state.json、resume.md（如有）及当前章节；初次读交接就绪状态、核心主张/结果、方法与限制。脚本检查全部文件与哈希不等于 Agent 已读懂全部内容；相关原文在使用时查证。

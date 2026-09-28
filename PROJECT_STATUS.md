@@ -5,4 +5,6 @@ Validated: 2026-09-28.
 
 36 manuscript tests, including downstream mini-review intake; 25 shared contract tests. Skill metadata validation passed. Tests use synthetic fixtures; they do not establish real scientific validity or journal acceptance. Optional integrations were tested with the sibling public distributions.
 
-Publication: prepared locally; GitHub repository creation is pending explicit visibility confirmation.
+Publication: public distribution authorized; see the repository README for series links.
+
+Series: Research Workflow Skills. Display names, navigation, installation guidance and publication conventions aligned on 2026-09-28. Technical Skill IDs remain stable.
