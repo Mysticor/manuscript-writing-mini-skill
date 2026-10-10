@@ -1,12 +1,12 @@
 figure_id: null
 working_title: null
 target_section: null
-scientific_question: null
-main_claim: null
+scientific_question: null  # 本图要让读者理解或判断的具体问题。
+main_claim: null  # 有来源支持的主张与适用边界，不预设新结论。
 why_figure: null
 why_table_insufficient: null
 figure_type: null
-overall_layout: null
+overall_layout: null  # 主次、阅读顺序和互补关系；按证据需要决定面板数。
 panel_count: null
 required_data: null
 required_photos: null
@@ -23,8 +23,8 @@ provenance_mode: null
 status: null
 panels:
 - label: null
-  scientific_role: null
-  exact_content: null
+  scientific_role: null  # 本面板独有的解释/证据作用。
+  exact_content: null  # 必须出现的对象、变量、比较与关键细节；不能只写图类型。
   sources: null
   axes_variables: null
-  visual_form: null
+  visual_form: null  # 编码、主次与对应关系怎样表达上述内容；不只写配色。

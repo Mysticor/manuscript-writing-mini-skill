@@ -1,10 +1,11 @@
-# Displays before final prose
-Build integrated Figure/Table/Literature/Photo/Model-output/Schematic/SI plans.
-Choose figures for trends, distribution, space/time, trade-offs, processes,
-mechanisms or taxonomy; tables for exact values, many attributes, datasets,
-parameters, benchmarks and systematic study comparisons. Avoid meaningless duplicate
-information. Each display has an evidence-bearing role; no decorative quotas.
-Review candidates: taxonomy, evolution when informative, method/sensing landscape,
-mechanism comparison, challenge-solution/evidence/gap maps, future roadmap,
-method×capability or maturity matrices. Preserve central evidence in main text.
-Gate C confirms the concrete briefs and allocation. Later changes are versioned.
+# 全篇图表规划
+
+在 writing_plan.md 的 `Displays and sources` 中，结合章节、claim_evidence_map、实际结果及上游文献视觉候选，辨认需要视觉表达的科学问题：哪些关系、结构、比较或证据用图更清楚，哪些应保留为表格或正文。上游候选是来源导航，不等于已核实或必须使用。
+
+每个拟用图表用一行说明：对应章节/主张、读者需要看懂什么、现有证据或来源、正文/SI位置及是否确定制作。引用已有 ID/路径，不复制证据账本。给出由此形成的主图/补充图安排和暂定数量；证据未定时说明哪些候选仍待判断。不设固定数量、每节一图或“越少越好”的目标，也不按已有 CSV 个数拆图。
+
+检查两端：少了这张图，关键内容是否难以理解或判断？多了这张图，是否只是重复已有信息？同一问题的互补证据可合为多面板，不同科学问题不硬塞一图；次要细节可放 SI，但改变核心结论的对照或边界不能为省版面藏入 SI。现有内容适合单图或文字时保持简单，不能为信息密度补造数据、机制或比较。
+
+图适合趋势、分布、时空、权衡、结构、过程和分类关系；表适合精确值、属性和可比研究的系统对照。综述图应表达有来源的分类轴、方法差异、适用条件或证据缺口，不把章节目录换成几个彩色框，也不把异质文献强排成数值排名。这些是可用表达方式，不是每篇必须配齐的图单。
+
+早期样稿和章节推进照常进行，不要求先完成所有图。候选先留在方案，确定制作后才建 brief；复杂度按[图简报](figure-planning.md)选择。章节整合时回查覆盖与重复，必要时增加、合并或调整并说明原因。沿用稳定 ID；改变科学方案或 brief 时按既有 Gate C/lock 和影响分析更新受影响内容，不因增图重启全部研究或增加审批轮次。

@@ -8,6 +8,12 @@ Results, produced core figures/tables, substantive captions, current verificatio
 for used literature components, recorded rights, valid citations, terminology,
 main/SI allocation and no central blocker or fabricated content. Gate D records current full-draft completion under the shared AUTO/user-decision rule. Checks do not prove semantic truth; Agent must
 read entire manuscript and inspect actual assets and source verification.
+Compare the planned displays with the manuscript's actual questions: check for
+missing necessary visual evidence, empty schematic abstractions and redundant
+panels. Inspect information and legibility at final use size; palette, file existence
+or technical QA alone is insufficient. Record findings in the existing content
+check, revise affected assets/briefs and refresh applicable locks before readiness.
+No figure-count target or new Gate is introduced.
 
 Script checks paths/checksums, IDs/brief fields, selected headings/captions/callouts,
 citation keys, placeholders, input linkage and gates. It cannot judge whether prose

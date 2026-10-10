@@ -1,16 +1,17 @@
+# 先确定科学内容与证据组织；仅充分适用的单面板使用 compact-v1，多面板改用 full。
 figure_id: null
 target_section: null
-scientific_question: null
-main_claim: null
+scientific_question: null  # 本图要让读者理解或判断的具体问题。
+main_claim: null  # 有来源支持的主张与适用边界，不预设新结论。
 figure_type: null
-panel_count: 1
+panel_count: null  # 选定单面板后明确填 1；此处不替你决定图的复杂度。
 panels:
 - label: null
-  scientific_role: null
-  exact_content: null
+  scientific_role: null  # 本面板独有的解释/证据作用。
+  exact_content: null  # 必须出现的对象、变量、比较与关键细节；不能只写图类型。
   sources: null
   axes_variables: null
-  visual_form: null
+  visual_form: null  # 编码、主次与对应关系怎样表达上述内容；不只写配色。
 generation_route: nature-figure
 expected_source_files: null
 expected_outputs: null
