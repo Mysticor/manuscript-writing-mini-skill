@@ -16,7 +16,12 @@ missing necessary visual evidence, empty schematic abstractions and redundant
 panels. Inspect information and legibility at final use size; palette, file existence
 or technical QA alone is insufficient. Record findings in the existing content
 check, revise affected assets/briefs and refresh applicable locks before readiness.
-No figure-count target or new Gate is introduced.
+Record planned and delivered figure/table counts for main text and SI, with reasons
+for changes, in that same content check. Reconcile [display planning](display-architecture.md)
+with the manuscript's actual scale, applicable journal limits and inspected comparators;
+note unresolved guidance/reference gaps. Check the concrete visual requirements at final
+use size. Counts or superficial resemblance do not replace scientific adequacy and
+readability. No additional Gate is introduced.
 
 Script checks paths/checksums, IDs/brief fields, selected headings/captions/callouts,
 citation keys, placeholders, input linkage and gates. It cannot judge whether prose

@@ -16,7 +16,7 @@ Research Workflow Skills · 02 · Writing. See the repository README for the fou
 运行 scripts/projectctl.py open PROJECT；首次处理 Gate、版本或交接时读[共享契约](../../../workflow-contract/README.md)，按需读取[阶段规则](references/workflow.md)。
 
 ## 尽早让用户看到文章
-先写一份简洁的 manuscript_blueprint/writing_plan.md：文章定位、章节与证据、必要图表与来源、边界及交付。按[文献覆盖](references/citation-planning.md)安排各节引用并记录数量目标；按[全篇图表规划](references/display-architecture.md)先检查视觉表达的覆盖，再形成图数和正文/SI安排，向用户简述每张拟用图的作用；不默认少画或每节一图。源自研究交接的方向直接沿用；新的重大写作取舍才询问，不用 AUTO 替用户改变研究方向。
+先写一份简洁的 manuscript_blueprint/writing_plan.md：文章定位、章节与证据、必要图表与来源、边界及交付。按[文献覆盖](references/citation-planning.md)安排各节引用并记录数量目标；按[全篇图表规划](references/display-architecture.md)结合论文体量、证据、目标期刊与可比论文确定图表数量和正文/SI安排，向用户简述各项作用及取舍；有实质收益时充分安排，不套固定张数或倍率。源自研究交接的方向直接沿用；新的重大写作取舍才询问，不用 AUTO 替用户改变研究方向。
 方向一致后尽早给一个代表性小节，让用户看到组织方式、细节深度和表达。已有认可范例直接复用；没有范例时先展示样稿并收集反馈，再展开大量同类正文，不要求每节重复确认。
 样稿可以在全部图表制作之前完成，但只能用已核实证据；它不是整篇就绪标记。不要等十份规划或所有图表做好才给用户正文。
 
