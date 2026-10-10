@@ -7,7 +7,10 @@ clear story/section architecture, evidence-backed claims, actual Methods and tra
 Results, produced core figures/tables, substantive captions, current verification
 for used literature components, recorded rights, valid citations, terminology,
 main/SI allocation and no central blocker or fabricated content. Gate D records current full-draft completion under the shared AUTO/user-decision rule. Checks do not prove semantic truth; Agent must
-read entire manuscript and inspect actual assets and source verification.
+read entire manuscript and inspect actual assets and source verification. Include
+section-level citation coverage and the fixed target/actual unique citation counts
+from [citation planning](citation-planning.md) in the existing content check; report
+unresolved shortfalls explicitly. A longer bibliography alone does not establish support.
 Compare the planned displays with the manuscript's actual questions: check for
 missing necessary visual evidence, empty schematic abstractions and redundant
 panels. Inspect information and legibility at final use size; palette, file existence

@@ -17,7 +17,8 @@ own rendered QA; do not invent outputs or substitute AI for experimental evidenc
 nature-ref-verifier: verify missing/changed metadata against authoritative sources.
 nature-citation: only explicit Nature/CNS scope when it truly fits; no automatic
 CNS-only filter on general/engineering manuscripts.
-nature-academic-search: bounded missing-reference lookup only; preserve query/source.
+nature-academic-search: bounded lookup for documented section/claim coverage gaps;
+preserve query/source and screening decisions, following citation-planning.md.
 
 The router refuses other specialist names. Routes produce paths/instructions, not
 fictional execution results. The Agent must actually read and apply the specialist.

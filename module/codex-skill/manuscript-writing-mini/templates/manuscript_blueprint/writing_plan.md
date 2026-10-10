@@ -6,6 +6,7 @@ Status: UNFILLED
 
 ## Sections and evidence
 [TO_COMPLETE]
+<!-- 按章节列论证任务、已有来源和实质覆盖缺口，引用已有ID。记录可比完整稿件的基线/统计口径、一次设定的引用目标；无基线时写有依据的目标范围。避免每节平均分配篇数。完成方案时用实际内容替换本提示。 -->
 
 ## Displays and sources
 [TO_COMPLETE]
