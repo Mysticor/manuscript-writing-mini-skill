@@ -12,6 +12,7 @@ Research Workflow Skills · 02 · Writing. See the repository README for the fou
 
 ## 开始
 定位实际研究目录。恢复先读 state.json、resume.md（如有）及当前章节；初次读交接就绪状态、核心主张/结果、方法与限制。脚本检查全部文件与哈希不等于 Agent 已读懂全部内容；相关原文在使用时查证。
+交接含100篇候选→20篇核心精读任务时，核对实际筛选/阅读记录、全文笔记和跨文献综合，沿用据此形成的内容方案；不能把期刊数量对照当作科学精读。缺额返回上游待办并说明内容判断限制，仍可写不依赖缺证据的部分；不擅自重跑全部检索或把未完成准备说成就绪。
 用 Python 3.11+ 运行本 Skill 的 scripts/manuscriptctl.py；新项目 `init DEST --handoff SOURCE --paper-type TYPE`，已有目录不重建。原版和 mini 不并发编辑同一论文。
 运行 scripts/projectctl.py open PROJECT；首次处理 Gate、版本或交接时读[共享契约](../../../workflow-contract/README.md)，按需读取[阶段规则](references/workflow.md)。
 
