@@ -1,7 +1,7 @@
 # Release status
 
 Status: maintained.
-Validated: 2026-10-10.
+Validated: 2026-10-11.
 
 36 manuscript tests, including downstream mini-review intake; 25 shared contract tests. Skill metadata validation passed. Tests use synthetic fixtures; they do not establish real scientific validity or journal acceptance. Optional integrations were tested with the sibling public distributions.
 
@@ -14,3 +14,5 @@ Series: Research Workflow Skills. Display names, navigation, installation guidan
 2026-10-10: Added section-level citation coverage planning, bounded gap searches and stable user-defined citation targets. Unique cited works are distinguished from library size; resumptions and downstream stages retain the original target. Expansion ratios are optional user requirements, not universal defaults. All 36 manuscript regressions passed, including sibling mini-review intake; Skill validation and CLI smoke checks passed. Runtime schemas, figure improvements and downstream interfaces are unchanged.
 
 2026-10-10: Display planning now adapts to manuscript scale, actual evidence, current journal requirements and a small set of inspected comparable papers. It favors useful visual coverage without fixed counts or multipliers. Figure briefs carry concrete visual requirements and final-size comparisons; table organization follows the same manuscript plan. All 36 manuscript regressions passed, including sibling mini-review intake; Skill/CLI validation and personal-information checks passed. Runtime schemas, citation policies and Nature Figure are unchanged. These checks do not certify actual figure quality.
+
+2026-10-11: Journal-aware planning now uses about 10 target-journal full texts and about 10 across comparable peer journals, reusing the planning handoff and filling documented gaps. Per-paper measurements and separate group distributions inform manuscript scale, displays and citations without fixed output quotas. All 36 manuscript regressions, Skill/CLI and privacy checks passed. Runtime schemas and stage boundaries are unchanged. These checks do not establish real download availability; no live journal sample was collected in this update.

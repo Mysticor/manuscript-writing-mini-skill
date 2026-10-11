@@ -19,7 +19,9 @@ check, revise affected assets/briefs and refresh applicable locks before readine
 Record planned and delivered figure/table counts for main text and SI, with reasons
 for changes, in that same content check. Reconcile [display planning](display-architecture.md)
 with the manuscript's actual scale, applicable journal limits and inspected comparators;
-note unresolved guidance/reference gaps. Check the concrete visual requirements at final
+note the two comparator groups' actual downloaded/measured counts and unresolved
+sample or guidance gaps, following journal-benchmarking.md. A partial sample must not
+be labelled a completed benchmark. Check the concrete visual requirements at final
 use size. Counts or superficial resemblance do not replace scientific adequacy and
 readability. No additional Gate is introduced.
 

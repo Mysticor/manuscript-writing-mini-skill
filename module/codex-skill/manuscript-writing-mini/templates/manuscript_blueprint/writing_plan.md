@@ -3,6 +3,7 @@ Status: UNFILLED
 
 ## Positioning
 [TO_COMPLETE]
+<!-- 目标期刊/文类明确时，记录目标刊与相近期刊两组全文对照的目标、实际下载/核对数、明细路径，以及正文长度/图表/引用分布对本稿的影响；缺额与统计口径说明清楚。只保留决策摘要，不粘贴全部原文或逐篇长记录。完成方案时用实际内容替换本提示。 -->
 
 ## Sections and evidence
 [TO_COMPLETE]
