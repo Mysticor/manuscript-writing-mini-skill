@@ -12,7 +12,7 @@ Research Workflow Skills · 02 · Writing. See the repository README for the fou
 
 ## 开始
 定位实际研究目录。恢复先读 state.json、resume.md（如有）及当前章节；初次读交接就绪状态、核心主张/结果、方法与限制。脚本检查全部文件与哈希不等于 Agent 已读懂全部内容；相关原文在使用时查证。
-交接含100篇候选→20篇核心精读任务时，核对实际筛选/阅读记录、全文笔记和跨文献综合，沿用据此形成的内容方案；不能把期刊数量对照当作科学精读。缺额返回上游待办并说明内容判断限制，仍可写不依赖缺证据的部分；不擅自重跑全部检索或把未完成准备说成就绪。
+交接含100篇入围→30篇核心精读任务时，核对实际筛选/阅读记录、全文笔记和跨文献综合，沿用据此形成的内容方案；不能把期刊数量对照当作科学精读。缺额返回上游待办并说明内容判断限制，仍可写不依赖缺证据的部分；不擅自重跑全部检索或把未完成准备说成就绪。
 用 Python 3.11+ 运行本 Skill 的 scripts/manuscriptctl.py；新项目 `init DEST --handoff SOURCE --paper-type TYPE`，已有目录不重建。原版和 mini 不并发编辑同一论文。
 运行 scripts/projectctl.py open PROJECT；首次处理 Gate、版本或交接时读[共享契约](../../../workflow-contract/README.md)，按需读取[阶段规则](references/workflow.md)。
 
@@ -22,10 +22,10 @@ Research Workflow Skills · 02 · Writing. See the repository README for the fou
 样稿可以在全部图表制作之前完成，但只能用已核实证据；它不是整篇就绪标记。不要等十份规划或所有图表做好才给用户正文。
 
 ## 按章节推进
-默认每批完成一个实质小节及其所需图表。按[写作与工具规则](references/adapters.md)调用 nature-writing；只读当前论文类型、章节和必要资源。
+默认每批完成一个实质小节及其所需图表；复杂图可作为独立批次，开始时简述本轮范围。首次重要代表图按绘图规则展示实际成图并等待反馈，再批量制作同类图。按[写作与工具规则](references/adapters.md)调用 nature-writing；只读当前论文类型、章节和必要资源。
 方案沿用 claim_evidence_map.csv 和 section_registry.csv，方案写引用和论证关系，不再另抄一份主张账本。全篇规划保持简短，确定制作的图表才展开[绘图简报与交接要求](references/figure-planning.md)或[表格说明](references/table-planning.md)。先定科学内容与证据组织，再选单面板或多面板及对应简报；不能为保持 compact 而删减必要信息。将具体表达要求传给 nature-figure，沿用认可基准，并检查信息是否充分、科学关系是否正确，而不只检查配色和导出。
 选中文献图表、公式与具体数值，按[原文核验](references/targeted-source-verification.md)回查，不重新精读整个文献库。图表与正文可交替推进；必需图表未完成可继续独立正文，但不能宣称完整初稿就绪。
-每批把长材料留在文件里，只返回关键成果与定位；更新 state.next_actions 和根目录 resume.md（当前章节、完成文件、待办/阻塞、已有决定，通常一页内）。resume 不放进 manuscript_blueprint，避免进度更新使科学方案失效。
+每批把长材料留在文件里，只返回关键成果与定位；更新 state.next_actions 和根目录 resume.md（当前章节、完成文件、待办/阻塞、已有决定，通常一页内）。resume 不放进 manuscript_blueprint，避免进度更新使科学方案失效。每批结束保存后简报完成内容与文件、图表/证据缺口、待决定事项和下一步，并结束本轮等待用户继续；附包含项目绝对路径与当前进度的新对话接续说明。普通“继续”推进下一批，不自动跑完整稿。用户明确要求连续执行时遵从指定范围，但未确认的代表图及重大取舍仍需实际决定；已有认可基准不重复确认。
 新图表简报或科学方案变化需更新并重新记录受影响的 Gate C/lock；沿用已定方向，不重新让用户批准整套方案。
 
 ## 完成

@@ -13,7 +13,7 @@ Its broad submission/reviewer routes are OUTSIDE this Stage 2 contract.
 nature-reader: locate original selected content using appropriate source-format
 rules; scoped extraction/verification request, not indiscriminate full retranslation.
 nature-figure: approved standalone briefs, actual data/assets, saved backend and its
-own rendered QA; do not invent outputs or substitute AI for experimental evidence.
+own rendered QA; assemble the actual request from the approved brief following figure-planning.md (evidence-to-panel mapping, observed references, concrete layout/encoding and output constraints). Resolving a path is not a figure-generation call. Do not invent outputs or substitute AI for experimental evidence.
 nature-ref-verifier: verify missing/changed metadata against authoritative sources.
 nature-citation: only explicit Nature/CNS scope when it truly fits; no automatic
 CNS-only filter on general/engineering manuscripts.

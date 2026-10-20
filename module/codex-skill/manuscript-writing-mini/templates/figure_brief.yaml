@@ -11,7 +11,7 @@ panels:
   exact_content: null  # 必须出现的对象、变量、比较与关键细节；不能只写图类型。
   sources: null
   axes_variables: null
-  visual_form: null  # 编码、主次与对应关系怎样表达上述内容；不只写配色。
+  visual_form: null  # 编码、主次与对应关系怎样表达上述内容；不只写配色；适用时记录实际查看的参考图/页码、借鉴点及当前数据编码。
 generation_route: nature-figure
 expected_source_files: null
 expected_outputs: null
