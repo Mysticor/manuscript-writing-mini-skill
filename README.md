@@ -1,5 +1,7 @@
 # Manuscript Writing Mini
 
+当前版本：**v2** · [更新记录与编号规则](CHANGELOG.md)
+
 **Research Workflow Skills · 02 · Writing**
 
 从真实研究证据生成完整论文初稿，使用简洁写作方案、早期样稿、逐章图文协作和来源核验。

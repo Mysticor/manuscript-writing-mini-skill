@@ -3,6 +3,8 @@ name: manuscript-writing-mini
 description: >
   Manuscript Writing Mini：承接蓝图或蓝图mini的真实证据，用简洁写作方案、早期样稿和逐章图文协作完成论文初稿。
   用于写作mini、轻量论文写作、按章节继续和局部修改；保留来源核验与审稿交接，不做正式审稿或排版。
+metadata:
+  version: "2"
 ---
 # Manuscript Writing Mini
 
