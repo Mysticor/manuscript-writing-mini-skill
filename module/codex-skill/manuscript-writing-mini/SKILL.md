@@ -4,11 +4,18 @@ description: >
   Manuscript Writing Mini：承接蓝图或蓝图mini的真实证据，用简洁写作方案、早期样稿和逐章图文协作完成论文初稿。
   用于写作mini、轻量论文写作、按章节继续和局部修改；保留来源核验与审稿交接，不做正式审稿或排版。
 metadata:
-  version: "2"
+  version: "2.2"
 ---
 # Manuscript Writing Mini
 
 Research Workflow Skills · 02 · Writing. See the repository README for the four-stage series and installation.
+
+## 可选环境协作与模型分工
+默认沿用当前环境和原流程，全程 Codex 不增加搬运或模型切换。用户选择网页协作、收到跨环境包或当前步骤缺少工具时，先读[协作规则](../../../workflow-contract/portable-work.md)：检查实际能力，复用原状态，按批次交付文件与接续提示词；无法执行的本地校验保持待完成。模型只按该规则建议，由用户或宿主切换，不强制切换。
+协作模式使用包内相对路径与实际可用运行环境；使用满足依赖的运行环境。工作包不代替正式阶段交接，缺少工具不降低科学或视觉验收标准。
+
+网页按批次写作需要可粘贴入口时，运行 `scripts/web_prompt.py --out <项目外新文件.md>`，由当前规则生成，不手改派生文本。该入口不安装工具；绘图/正式交接仍需相应资源和真实校验。
+
 
 承接已选研究方向与实际证据，不重新选题。完成可交给 manuscript-review-mini（或兼容的 manuscript-review）的完整 Markdown 初稿。
 
@@ -24,7 +31,7 @@ Research Workflow Skills · 02 · Writing. See the repository README for the fou
 样稿可以在全部图表制作之前完成，但只能用已核实证据；它不是整篇就绪标记。不要等十份规划或所有图表做好才给用户正文。
 
 ## 按章节推进
-默认每批完成一个实质小节及其所需图表；复杂图可作为独立批次，开始时简述本轮范围。首次重要代表图按绘图规则展示实际成图并等待反馈，再批量制作同类图。按[写作与工具规则](references/adapters.md)调用 nature-writing；只读当前论文类型、章节和必要资源。
+默认每批完成一个实质小节及其所需图表；复杂图可作为独立批次，开始时简述本轮范围。首次重要代表图按绘图规则展示实际成图并等待反馈，再批量制作同类图。先读[写作与修订安全](references/writing-safety.md)，按[写作与工具规则](references/adapters.md)调用 nature-writing；只读当前论文类型、章节和必要资源。
 方案沿用 claim_evidence_map.csv 和 section_registry.csv，方案写引用和论证关系，不再另抄一份主张账本。全篇规划保持简短，确定制作的图表才展开[绘图简报与交接要求](references/figure-planning.md)或[表格说明](references/table-planning.md)。先定科学内容与证据组织，再选单面板或多面板及对应简报；不能为保持 compact 而删减必要信息。将具体表达要求传给 nature-figure，沿用认可基准，并检查信息是否充分、科学关系是否正确，而不只检查配色和导出。
 选中文献图表、公式与具体数值，按[原文核验](references/targeted-source-verification.md)回查，不重新精读整个文献库。图表与正文可交替推进；必需图表未完成可继续独立正文，但不能宣称完整初稿就绪。
 每批把长材料留在文件里，只返回关键成果与定位；更新 state.next_actions 和根目录 resume.md（当前章节、完成文件、待办/阻塞、已有决定，通常一页内）。resume 不放进 manuscript_blueprint，避免进度更新使科学方案失效。每批结束保存后简报完成内容与文件、图表/证据缺口、待决定事项和下一步，并结束本轮等待用户继续；附包含项目绝对路径与当前进度的新对话接续说明。普通“继续”推进下一批，不自动跑完整稿。用户明确要求连续执行时遵从指定范围，但未确认的代表图及重大取舍仍需实际决定；已有认可基准不重复确认。

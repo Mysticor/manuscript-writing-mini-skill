@@ -1,6 +1,6 @@
 # Manuscript Writing Mini
 
-当前版本：**v2** · [更新记录与编号规则](CHANGELOG.md)
+当前版本：**v2.2** · [更新记录与编号规则](CHANGELOG.md)
 
 **Research Workflow Skills · 02 · Writing**
 

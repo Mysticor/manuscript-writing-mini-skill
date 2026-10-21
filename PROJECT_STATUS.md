@@ -22,3 +22,5 @@ Series: Research Workflow Skills. Display names, navigation, installation guidan
 2026-10-20: Updated figure-reference inspection and concrete brief-to-render handoff using existing fields. First representative figures await actual user feedback; accepted styles are reused, and section/complex-figure batches save and stop with resume instructions. Schemas, routes, Gates and vendor are unchanged. Local synthetic comparisons are validation only and excluded from this public sync; no submission-quality or complete rendered-QA claim.
 
 2026-10-21：补齐版本编号 v2、VERSION、Skill metadata.version 和 CHANGELOG；历史版本按可核查公开提交追溯，不更改功能。 本次只发布版本说明与标签，不包含尚未同步的本机功能。
+
+2026-10-21 v2.2: 同步本次通用版功能，详见CHANGELOG。37项功能测试中36通过、1项可选下游安装测试跳过；34项共享契约/传输测试通过；网页提示生成成功。Skill结构、差异和本轮文件个人信息扫描通过。未执行真实Nomad授权下载或网页版端到端验收；不包含个人研究、授权会话或本机配置。
